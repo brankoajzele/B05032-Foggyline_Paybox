@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="../../../Magento/Store/etc/config.xsd">
+    <default>
+        <payment>
+            <paybox>
+                <active>0</active>
+                <model>Foggyline\Paybox\Model\Paybox</model>
+                <order_status>pending</order_status>
+                <title>Foggyline Paybox</title>
+                <allowspecific>0</allowspecific>
+                <group>offline</group>
+            </paybox>
+        </payment>
+    </default>
+</config>
