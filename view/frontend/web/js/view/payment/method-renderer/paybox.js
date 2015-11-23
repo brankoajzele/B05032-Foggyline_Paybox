@@ -16,14 +16,14 @@ define(
             getMailingAddress: function() {
                 //console.log('--getMailingAddress--');
                 return window.checkoutConfig.payment.paybox.mailingAddress;
-                //return 'ajzele@gmail.com';
+                //return 'john@change.me';
             },
 
             /** Returns payable to info */
             getPayableTo: function() {
                 //console.log('--getPayableTo--');
                 return window.checkoutConfig.payment.paybox.payableTo;
-                //return 'Branko';
+                //return 'John';
             }
         });
     }
